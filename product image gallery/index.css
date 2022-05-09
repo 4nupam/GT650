@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(156, 40, 40);
+}
+.product{
+    width: 60%;
+    height: 600px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+.product-small-img img{
+    height: 6rem;
+    margin:1rem 0;
+    cursor:pointer;
+    opacity: .5;
+    display: block;
+}
+.product-small-img img:hover{
+    opacity: 1;
+}
+.product-small-img{
+    float: left;
+}
+
+.img-container img {
+    height: 500px;
+}
+.img-container{
+    float: right;
+    padding: 10px;
+}
